@@ -219,3 +219,8 @@ img:hover {
     transform: scale(1.05); /* Görsel üzerine gelince biraz büyütme efekti */
     transition: transform 0.3s ease-in-out; /* Yumuşak bir geçiş efekti */
 }
+form {
+    display: block;
+    margin: 20px auto;
+    width: 80%; /* Formun genişliği */
+}
