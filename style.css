@@ -26,3 +26,30 @@ p {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+body {
+    background-color: #eff6ff; /* Hafif açık mavi tonları */
+    font-family: 'Roboto', sans-serif;
+    color: #1f2937; /* Genel yazı rengi: koyu gri */
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #2563eb; /* Mavi tonlarında başlık rengi */
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    text-align: center;
+    margin: 20px 0;
+}
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
