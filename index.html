@@ -117,4 +117,27 @@
         });
     });
 </script>
+<section id="faq">
+    <h2>Sıkça Sorulan Sorular</h2>
+    <div class="faq-item">
+        <h3>Soru 1: Dijital Gelecek nedir?</h3>
+        <p>Cevap: Dijital Gelecek, teknoloji ve dijital çözümleri keşfetmek için ideal bir platformdur.</p>
+    </div>
+    <div class="faq-item">
+        <h3>Soru 2: Nasıl iletişim kurabilirim?</h3>
+        <p>Cevap: Bizimle iletişim kurmak için İletişim formunu doldurabilir veya e-posta gönderebilirsiniz.</p>
+    </div>
+    <div class="faq-item">
+        <h3>Soru 3: Hangi hizmetleri sunuyorsunuz?</h3>
+        <p>Cevap: E-ticaret, web tasarımı ve dijital pazarlama alanında çözümler sunuyoruz.</p>
+    </div>
+</section>
+<script>
+    document.querySelectorAll('.faq-item h3').forEach(question => {
+        question.addEventListener('click', () => {
+            const answer = question.nextElementSibling;
+            answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+        });
+    });
+</script>
 
