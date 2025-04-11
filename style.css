@@ -53,3 +53,139 @@ p {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+<div class="container">
+    <h1>Hoş Geldiniz!</h1>
+    <p>Bu, e-ticaret için bir bilgi paylaşım sitesidir.</p>
+</div>
+nav {
+    background-color: #2563eb;
+    padding: 10px 0;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+<nav>
+    <a href="#home">Ana Sayfa</a>
+    <a href="#about">Hakkımızda</a>
+    <a href="#contact">İletişim</a>
+</nav>
+button {
+    background-color: #34d399; /* Yeşil tonlarında bir renk */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #059669;
+}
+<button>Hemen İncele</button>
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    .container {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 1.8em;
+    }
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    .container {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 1.8em;
+    }
+}
+body {
+    background: linear-gradient(45deg, #2563eb, #3b82f6);
+    color: white;
+}
+img {
+    border: 3px solid #2563eb;
+    border-radius: 15px; /* Köşe yuvarlama */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Gölge */
+}
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+button {
+    background-color: #34d399;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #059669;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li::before {
+    content: '✔'; /* Özel ikon eklemek */
+    margin-right: 10px;
+    color: #34d399;
+}
+.container {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.container:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+img {
+    filter: grayscale(50%);
+    transition: filter 0.3s ease;
+}
+
+img:hover {
+    filter: grayscale(0%);
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000;
+}
