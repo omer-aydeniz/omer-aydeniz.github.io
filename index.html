@@ -140,4 +140,33 @@
         });
     });
 </script>
+<section id="faq">
+    <h2>Sıkça Sorulan Sorular</h2>
+    <div class="faq-item">
+        <h3>Dijital Gelecek hakkında bilmem gereken nedir?</h3>
+        <p>Dijital Gelecek, teknoloji ve dijital çözümleri keşfetmek için ideal bir platformdur.</p>
+    </div>
+    <div class="faq-item">
+        <h3>Size nasıl ulaşabilirim?</h3>
+        <p>Bize iletişim formu veya e-posta yoluyla ulaşabilirsiniz: omer@dijitalgelecek.com.</p>
+    </div>
+    <div class="faq-item">
+        <h3>Hangi hizmetleri sunuyorsunuz?</h3>
+        <p>E-ticaret, web tasarımı ve dijital pazarlama hizmetleri sunuyoruz.</p>
+    </div>
+    <div class="faq-item">
+        <h3>Sosyal medyada nasıl sizi takip edebilirim?</h3>
+        <p>Instagram, Twitter ve LinkedIn hesaplarımız üzerinden bizi takip edebilirsiniz.</p>
+    </div>
+    <div class="faq-item">
+        <h3>Yeni içerikler ne sıklıkla yayınlanıyor?</h3>
+        <p>Web sitemizde her hafta yeni içerikler yayınlıyoruz. Haber bültenimize abone olun!</p>
+    </div>
+</section>
+document.querySelectorAll('.faq-item h3').forEach(question => {
+    question.addEventListener('click', () => {
+        const answer = question.nextElementSibling;
+        answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+    });
+});
 
