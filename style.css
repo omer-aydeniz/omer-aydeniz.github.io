@@ -202,3 +202,20 @@ nav {
     padding: 10px 0;
     z-index: 1000;
 }
+img {
+    max-width: 100%; /* Görselin genişliğini container'a uyacak şekilde sınırlayın */
+    height: auto; /* Oranlı ölçeklendirme */
+    display: block; /* Görseli bir blok elemanı olarak ayarlayın */
+    margin: 0 auto; /* Görseli ortalayın */
+}
+img {
+    border: 3px solid #2a9d8f; /* Görsele renkli bir kenarlık ekleyin */
+    border-radius: 10px; /* Köşeleri yuvarlayın */
+}
+img {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Görsele hafif bir gölge ekleyin */
+}
+img:hover {
+    transform: scale(1.05); /* Görsel üzerine gelince biraz büyütme efekti */
+    transition: transform 0.3s ease-in-out; /* Yumuşak bir geçiş efekti */
+}
