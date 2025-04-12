@@ -1,217 +1,77 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dijital Gelecek</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dijital Gelecek</title>
+  <!-- Font Awesome ile ikonlar için CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Dış CSS dosyası -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Üst Navigasyon -->
-    <header>
-        <nav class="navbar">
-            <div class="logo">
-                <h1>Dijital Gelecek</h1>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#">Ana Sayfa</a></li>
-                <li><a href="#">Hakkımızda</a></li>
-                <li><a href="#">Hizmetler</a></li>
-                <li><a href="#">İletişim</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- Site Başlığı -->
+  <header>
+    <h1>Dijital Gelecek</h1>
+  </header>
 
-    <!-- Banner Bölümü -->
-    <section class="banner">
-        <h2>Teknolojinin Kapılarını Açıyoruz!</h2>
-        <p>Dijital Gelecek ile inovasyon, teknoloji ve dijital çözümler sizi bekliyor.</p>
-        <a href="#hizmetler" class="cta-button">Hizmetlerimizi İnceleyin</a>
-    </section>
+  <!-- Hakkımızda Bölümü -->
+  <section id="hakkimizda">
+    <h2>Hakkımızda</h2>
+    <p>
+      Dijital Gelecek olarak, teknoloji ve inovasyonun en önemli araçlar olduğuna inanıyoruz. 
+      Misyonumuz, dijital çözümler ve e-ticaret desteği ile bireyleri ve işletmeleri güçlendirmek.
+    </p>
+  </section>
 
-    <!-- Hizmetler Bölümü -->
-    <section id="hizmetler" class="services">
-        <h2>Hizmetlerimiz</h2>
-        <div class="service-item">
-            <h3>E-Ticaret Çözümleri</h3>
-            <p>Online satış platformları için profesyonel destek.</p>
-        </div>
-        <div class="service-item">
-            <h3>Web Tasarımı</h3>
-            <p>Modern ve kullanıcı dostu tasarımlar.</p>
-        </div>
-        <div class="service-item">
-            <h3>Dijital Pazarlama</h3>
-            <p>SEO ve sosyal medya stratejileri ile büyüyün.</p>
-        </div>
-    </section>
+  <!-- Hizmetler Bölümü -->
+  <section id="hizmetler">
+    <h2>Hizmetler</h2>
+    <div class="service">
+      <h3>E-Ticaret Çözümleri</h3>
+      <p>Online satış platformları için profesyonel destek.</p>
+    </div>
+    <div class="service">
+      <h3>Web Tasarımı</h3>
+      <p>Modern ve kullanıcı dostu tasarımlar.</p>
+    </div>
+    <div class="service">
+      <h3>Dijital Pazarlama</h3>
+      <p>SEO ve sosyal medya stratejileri ile büyüyün.</p>
+    </div>
+  </section>
 
-    <!-- Footer Bölümü -->
-    <footer>
-        <p>© 2025 Dijital Gelecek. Tüm hakları saklıdır.</p>
-        <ul>
-            <li><a href="#">Gizlilik Politikası</a></li>
-            <li><a href="#">Çerez Ayarları</a></li>
-            <li><a href="#">Kullanım Koşulları</a></li>
-        </ul>
-    </footer>
+  <!-- İletişim/Sosyal Medya Bölümü -->
+  <section id="iletisim">
+    <h2>Bize Ulaşın</h2>
+    <div class="social-media">
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/omer__aydeniz/" target="_blank" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/%C3%B6mer-aydeniz/" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <!-- E-posta -->
+      <a href="mailto:omer.aydeniz@outlook.com.tr" aria-label="E-posta">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Abone Ol Bölümü -->
+  <section id="abone">
+    <h2>Siteye Abone Olun</h2>
+    <form action="#" method="post">
+      <input type="email" name="email" placeholder="E-posta adresinizi girin" required>
+      <button type="submit">Abone Ol</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Dijital Gelecek</p>
+  </footer>
 </body>
 </html>
-<div class="search-bar">
-    <input type="text" placeholder="Arama yapın...">
-    <button>Ara</button>
-</div>
-<section class="reviews">
-    <h2>Ürün İncelemeleri</h2>
-    <div class="review-item">
-        <h3>Ürün Adı</h3>
-        <p>"Çok kaliteli bir ürün, herkese tavsiye ederim!"</p>
-        <span>Derecelendirme: ★★★★★</span>
-    </div>
-</section>
-<section class="pricing">
-    <h2>Fiyatlar</h2>
-    <table>
-        <tr>
-            <th>Hizmet</th>
-            <th>Fiyat</th>
-        </tr>
-        <tr>
-            <td>E-Ticaret Çözümleri</td>
-            <td>₺499</td>
-        </tr>
-        <tr>
-            <td>Web Tasarımı</td>
-            <td>₺999</td>
-        </tr>
-        <tr>
-            <td>Dijital Pazarlama</td>
-            <td>₺599</td>
-        </tr>
-    </table>
-</section>
-<div class="filters">
-    <button onclick="filter('all')">Tümü</button>
-    <button onclick="filter('e-commerce')">E-Ticaret</button>
-    <button onclick="filter('design')">Web Tasarımı</button>
-</div>
-<div id="filter-results">
-    <div class="item e-commerce">E-Ticaret Çözümü 1</div>
-    <div class="item design">Web Tasarımı 1</div>
-    <div class="item e-commerce">E-Ticaret Çözümü 2</div>
-</div>
-<form class="subscribe">
-    <h3>Bültenimize Abone Olun</h3>
-    <input type="email" placeholder="E-posta adresinizi girin" required>
-    <button type="submit">Abone Ol</button>
-</form>
-<section class="product-cards">
-    <h2>Ürün ve Hizmetlerimiz</h2>
-    <div class="card">
-        <h3>E-Ticaret Çözümleri</h3>
-        <p>Online platformlarda satışınızı artırın.</p>
-        <button>Detaylı Bilgi</button>
-    </div>
-    <div class="card">
-        <h3>Web Tasarımı</h3>
-        <p>Modern ve kullanıcı dostu tasarımlar.</p>
-        <button>Detaylı Bilgi</button>
-    </div>
-</section>
-<section class="map">
-    <h2>Bizimle İletişim Kurun</h2>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0152299371746!2d-122.40149718425934!3d37.7934445797567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064df528181%3A0xcdda1928e123df4b!2sGoogle%20LLC!5e0!3m2!1str!2str!4v1615597963005!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-</section>
-<section class="statistics">
-    <h2>Başarılarımız</h2>
-    <div class="stat-item">
-        <h3>100+</h3>
-        <p>Mutlu Müşteri</p>
-    </div>
-    <div class="stat-item">
-        <h3>50+</h3>
-        <p>Tamamlanan Proje</p>
-    </div>
-    <div class="stat-item">
-        <h3>10</h3>
-        <p>Yıllık Deneyim</p>
-    </div>
-</section>
-<section id="faq">
-    <h2>Sıkça Sorulan Sorular</h2>
-    <div class="faq-item">
-        <h3>Dijital Gelecek hakkında bilmem gereken nedir?</h3>
-        <p>Dijital Gelecek, teknoloji ve dijital çözümleri keşfetmek için ideal bir platformdur.</p>
-    </div>
-    <div class="faq-item">
-        <h3>Size nasıl ulaşabilirim?</h3>
-        <p>Bize iletişim formu veya e-posta yoluyla ulaşabilirsiniz: omer@dijitalgelecek.com.</p>
-    </div>
-    <div class="faq-item">
-        <h3>Hangi hizmetleri sunuyorsunuz?</h3>
-        <p>E-ticaret, web tasarımı ve dijital pazarlama hizmetleri sunuyoruz.</p>
-    </div>
-    <div class="faq-item">
-        <h3>Sosyal medyada nasıl sizi takip edebilirim?</h3>
-        <p>Instagram, Twitter ve LinkedIn hesaplarımız üzerinden bizi takip edebilirsiniz.</p>
-    </div>
-    <div class="faq-item">
-        <h3>Yeni içerikler ne sıklıkla yayınlanıyor?</h3>
-        <p>Web sitemizde her hafta yeni içerikler yayınlıyoruz. Haber bültenimize abone olun!</p>
-    </div>
-</section>
-<script>
-    document.querySelectorAll('.gallery-item img').forEach(item => {
-        item.addEventListener('click', () => {
-            const modal = document.createElement('div');
-            modal.style.position = 'fixed';
-            modal.style.top = 0;
-            modal.style.left = 0;
-            modal.style.width = '100%';
-            modal.style.height = '100%';
-            modal.style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
-            modal.style.display = 'flex';
-            modal.style.justifyContent = 'center';
-            modal.style.alignItems = 'center';
-            modal.innerHTML = `<img src="${item.src}" style="max-width: 90%; max-height: 90%;">`;
-            modal.addEventListener('click', () => modal.remove());
-            document.body.appendChild(modal);
-        });
-    });
-</script>
-<header>
-    <a href="index.html">
-        <img src="images/logo.png" alt="Dijital Gelecek Logo" width="150" height="50">
-    </a>
-</header>
-<title>Dijital Gelecek - Teknolojinin Kapılarını Açıyoruz</title>
-<meta name="description" content="Dijital Gelecek ile teknoloji, e-ticaret ve dijital çözümler hakkında en güncel bilgilere ulaşın. Geleceğin dünyasını keşfedin!">
-<meta name="keywords" content="Dijital Gelecek, teknoloji, e-ticaret, dijital çözümler, inovasyon">
-<section id="hakkimizda">
-    <h2>Hakkımızda</h2>
-    <p>Dijital Gelecek olarak, teknoloji ve inovasyonun en önemli araçlar olduğuna inanıyoruz. 
-    Misyonumuz, dijital çözümler ve e-ticaret desteği ile bireyleri ve işletmeleri güçlendirmek.</p>
-    
-    <p>10 yıllık deneyimimizle, modern ve kullanıcı odaklı web tasarımları, dijital pazarlama stratejileri ve 
-    e-ticaret çözümleri sunuyoruz. Sizin ihtiyaçlarınıza özel hizmetlerimizle büyümenize destek olmayı hedefliyoruz.</p>
-    
-    <p>Müşteri memnuniyeti odaklı yaklaşımımızla, teknolojinin karmaşıklığını basitleştiriyor, yenilikçi yöntemlerle 
-    size en kaliteli hizmeti sunuyoruz. Bizimle geleceğe adım atmaya hazır mısınız?</p>
-</section>
-<a href="#hakkimizda">Hakkımızda</a>
-<section id="iletisim">
-    <h2>İletişim</h2>
-    <p>Bize her zaman ulaşabilirsiniz!</p>
-    <p>E-posta: <a href="mailto:omer@dijitalgelecek.com">omer@dijitalgelecek.com</a></p>
-    <p>Telefon: <a href="tel:+905551234567">+90 555 123 4567</a></p>
-</section>
-
-
-
-
-
-
-
-
-
-
