@@ -68,10 +68,58 @@
       <button type="submit">Abone Ol</button>
     </form>
   </section>
+  
+  <!-- DOSYALAR Bölümü -->
+  <section id="dosyalar">
+    <h2>Dosyalar</h2>
+    <!-- Dosya listesi -->
+    <ul id="dosyaListesi">
+      <!-- Eklenen dosyalar burada listelenecek -->
+    </ul>
+    <!-- Dosya ekleme formu -->
+    <form id="dosyaForm" onsubmit="return false;">
+      <label for="dosyaGiris">Dosya seç:</label>
+      <input type="file" id="dosyaGiris">
+      <button type="button" onclick="dosyaEkle()">Dosyayı Ekle</button>
+    </form>
+    <!-- Açıklama: Bu örnek, statik bir sayfada dosya eklenmesini simüle etmek içindir.
+         Gerçek dosya yükleme işlemleri için sunucu taraflı kodlama veya üçüncü taraf servis entegrasyonu gereklidir. -->
+  </section>
 
   <!-- Footer -->
   <footer>
     <p>&copy; 2025 Dijital Gelecek</p>
   </footer>
+
+  <!-- Basit JavaScript ile dosya ekleme işlevi -->
+  <script>
+    function dosyaEkle() {
+      var fileInput = document.getElementById('dosyaGiris');
+      var file = fileInput.files[0];
+      if (!file) {
+        alert("Lütfen bir dosya seçin.");
+        return;
+      }
+      
+      var dosyaListesi = document.getElementById('dosyaListesi');
+      var li = document.createElement("li");
+      
+      // Dosya türüne göre ikon belirleme
+      var iconClass = "fa-file"; // Varsayılan ikon
+      if (file.type.includes("pdf")) {
+        iconClass = "fa-file-pdf";
+      } else if (file.type.includes("msword") || file.type.includes("officedocument.wordprocessingml.document")) {
+        iconClass = "fa-file-word";
+      } else if (file.type.includes("video")) {
+        iconClass = "fa-file-video";
+      }
+      
+      li.innerHTML = `<i class="fas ${iconClass}"></i> ${file.name}`;
+      dosyaListesi.appendChild(li);
+      
+      // Giriş alanını temizleme
+      fileInput.value = "";
+    }
+  </script>
 </body>
 </html>
