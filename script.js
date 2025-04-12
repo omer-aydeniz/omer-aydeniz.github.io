@@ -8,3 +8,7 @@ function filter(category) {
         }
     });
 }
+document.querySelector('a[href="#hakkimizda"]').addEventListener('click', () => {
+    document.getElementById('hakkimizda').scrollIntoView({ behavior: 'smooth' });
+});
+
