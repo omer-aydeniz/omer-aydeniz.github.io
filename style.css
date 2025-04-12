@@ -210,3 +210,22 @@ footer {
 #blogForm button:hover {
   background-color: #005b99;
 }
+.kayan-text {
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  font-size: 1.5rem;
+  color: #007acc;
+  font-weight: bold;
+  animation: kayanYazi 10s linear infinite;
+}
+
+@keyframes kayanYazi {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
