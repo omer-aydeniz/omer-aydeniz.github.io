@@ -287,6 +287,29 @@ footer a:hover {
 #hakkimizda {
     display: block;
 }
+#iletisim {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+#iletisim h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+#iletisim a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#iletisim a:hover {
+    text-decoration: underline;
+}
+
 
 
 
