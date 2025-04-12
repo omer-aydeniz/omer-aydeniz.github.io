@@ -92,6 +92,29 @@ section h2 {
   background-color: #005b99;
 }
 
+/* Dosyalar Bölümü */
+#dosyalar ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+#dosyalar ul li {
+  padding: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+
+#dosyaForm {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: flex-start;
+}
+
+#dosyaForm label {
+  font-weight: bold;
+}
+
 /* Footer stili */
 footer {
   background-color: #333;
