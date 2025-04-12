@@ -152,6 +152,14 @@ footer a:hover {
     text-align: left;
     border: 1px solid #ddd;
 }
+.filters button {
+    padding: 10px;
+    margin: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
 
 
 
