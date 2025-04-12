@@ -127,4 +127,25 @@ footer {
   background-color: #333;
   color: #ddd;
 }
+.accordion-button {
+  background-color: #007acc;
+  color: #fff;
+  padding: 1rem;
+  border: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.accordion-button.active, .accordion-button:hover {
+  background-color: #005b99;
+}
+
+.accordion-content {
+  display: none;
+  padding: 1rem;
+  background: #f1f1f1;
+}
+
 
