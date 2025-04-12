@@ -147,5 +147,66 @@ footer {
   padding: 1rem;
   background: #f1f1f1;
 }
+/* Blog Bölümü */
+#blog {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 2rem auto;
+  max-width: 800px;
+}
 
+#blog h2 {
+  text-align: center;
+  color: #007acc;
+  margin-bottom: 1.5rem;
+}
 
+#blogContainer {
+  margin-bottom: 2rem;
+}
+
+.blog-post {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.blog-post h3 {
+  color: #007acc;
+  margin-bottom: 0.5rem;
+}
+
+.blog-post p {
+  margin: 0;
+}
+
+#blogForm {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+#blogForm input, #blogForm textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#blogForm button {
+  background-color: #007acc;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#blogForm button:hover {
+  background-color: #005b99;
+}
