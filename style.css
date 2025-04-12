@@ -231,6 +231,35 @@ footer a:hover {
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
+#faq {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#faq h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+}
+
+.faq-item h3 {
+    color: #007bff;
+    cursor: pointer;
+}
+
+.faq-item p {
+    display: none; /* Cevapları başlangıçta gizli tutar */
+    margin: 10px 0;
+    font-size: 14px;
+}
+
 
 
 
