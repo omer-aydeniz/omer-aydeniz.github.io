@@ -123,3 +123,8 @@ footer {
   padding: 1rem 0;
   margin-top: 2rem;
 }
+.dark-mode {
+  background-color: #333;
+  color: #ddd;
+}
+
