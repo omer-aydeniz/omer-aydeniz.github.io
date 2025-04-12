@@ -131,5 +131,17 @@ footer a:hover {
 .search-bar button:hover {
     background-color: #0056b3;
 }
+.reviews {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.review-item {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
 
 
